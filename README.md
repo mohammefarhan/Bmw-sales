@@ -63,7 +63,11 @@ R² Score ≈ 0.74
 
 The best model is deployed using Streamlit, creating a BMW-styled prediction dashboard.
 
-<p align="center"> 👉 bmw sales report.pdf </p>
+<h2 align="center">🖥️ Dashboard UI</h2>
+
+<p align="center">
+  <img src="Screenshot 2026-02-21 023134.png" width="900"/>
+</p>
 <hr>
 ⚙️ Tech Stack
 Category	Tools
