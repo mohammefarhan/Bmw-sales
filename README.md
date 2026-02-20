@@ -1,41 +1,52 @@
 🚗 BMW Global Sales Prediction Dashboard
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg" width="120"/> </p> <p align="center"> <b>Machine Learning Powered Automotive Sales Prediction Dashboard</b> </p> <p align="center">
 
-A premium machine learning web application that predicts BMW vehicle sales using advanced regression models and a modern Streamlit dashboard.
 
-Built using Python, Machine Learning, Linear Regression, and Streamlit with a clean and interactive BMW-styled interface.
 
+
+
+
+
+
+</p>
 🚀 Overview
 
-This project predicts vehicle units sold based on business and market factors such as pricing, vehicle segment, engine type, dealership count, and competition index.
+A premium end-to-end machine learning project that predicts BMW vehicle sales using business and market features such as pricing, marketing spend, dealership presence, vehicle segment, and competition index.
 
-The application:
+The project demonstrates a full ML workflow:
 
-Takes vehicle configuration inputs
+Data preprocessing
 
-Processes data using a trained ML model
+Model training & comparison
 
-Predicts sales instantly
+Performance evaluation
 
-Displays results with a premium BMW-style interface
+BMW-styled Streamlit deployment
+
+✨ Features
+
+✔ Real-time sales prediction
+✔ BMW-themed interactive dashboard
+✔ Smart dropdown filtering by vehicle segment
+✔ Production-ready preprocessing pipeline
+✔ Clean premium UI
 
 🧠 How It Works
-1️⃣ Data Preprocessing
+📊 Data Preprocessing
 
 Removed duplicate records
 
-Created datetime feature from year & month
-
-Cleaned numerical columns
+Created datetime feature
 
 One-hot encoded categorical features
 
 Prepared deployment-ready dataset
 
-2️⃣ Model Training
+🤖 Model Training
 
-Multiple regression models were tested:
+Models evaluated:
 
-Linear Regression
+Linear Regression ✅ (Best Model)
 
 Decision Tree Regressor
 
@@ -43,37 +54,21 @@ Random Forest Regressor
 
 Gradient Boosting Regressor
 
-📊 Best Model: Linear Regression
-✔ R² Score ≈ 0.74
+Performance:
+R² Score ≈ 0.74
 
-3️⃣ Deployment
+🌐 Deployment
 
-The trained model is deployed using Streamlit to create an interactive BMW-style dashboard.
+The best-performing model is deployed using Streamlit, providing an interactive BMW-style dashboard.
 
-Dashboard Features:
-
-Dynamic dropdown inputs
-
-Smart model filtering by segment
-
-Premium UI with BMW branding
-
-Real-time predictions
-
+<p align="center"> 👉 Add your app screenshot here for maximum impact </p>
 ⚙️ Tech Stack
-
-Python
-
-Pandas & NumPy
-
-Scikit-learn
-
-Streamlit
-
-Plotly
-
-Joblib
-
+Category	Tools
+Programming	Python
+Data Processing	Pandas, NumPy
+Machine Learning	Scikit-learn
+Deployment	Streamlit
+Model Saving	Joblib
 📂 Project Structure
 BMW-Sales-Prediction/
 │
@@ -89,23 +84,23 @@ pip install -r requirements.txt
 streamlit run app.py
 📈 Key Highlights
 
-End-to-end ML pipeline
+Built an end-to-end ML pipeline
 
-Clean BMW-themed dashboard
+Designed a BMW-styled premium dashboard
 
-Smart UI interactions
+Implemented dynamic model filtering
 
-Production-style deployment
+Achieved strong predictive performance with Linear Regression
 
-🚀 Future Improvements
+🔮 Future Improvements
 
-Add live analytics panels
+Add KPI analytics panels
 
-Advanced ensemble tuning
+Deploy to Streamlit Cloud
 
-Cloud deployment (Streamlit Cloud / Render)
+Integrate real-time automotive data
 
-BMW-style KPI widgets
+Advanced hyperparameter tuning
 
 👨‍💻 Author
 
