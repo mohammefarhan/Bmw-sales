@@ -11,9 +11,9 @@
 </p>
 🚀 Overview
 
-A premium end-to-end machine learning project that predicts BMW vehicle sales using business and market features such as pricing, marketing spend, dealership presence, vehicle segment, and competition index.
+A premium end-to-end machine learning project that predicts BMW vehicle sales using pricing, marketing spend, dealership count, engine type, and vehicle segment.
 
-The project demonstrates a full ML workflow:
+This project demonstrates:
 
 Data preprocessing
 
@@ -23,14 +23,16 @@ Performance evaluation
 
 BMW-styled Streamlit deployment
 
+<hr>
 ✨ Features
 
-✔ Real-time sales prediction
-✔ BMW-themed interactive dashboard
-✔ Smart dropdown filtering by vehicle segment
-✔ Production-ready preprocessing pipeline
-✔ Clean premium UI
+✔ Real-time prediction system
+✔ BMW-themed premium dashboard
+✔ Smart model filtering
+✔ Production-ready ML pipeline
+✔ Clean modern UI
 
+<hr>
 🧠 How It Works
 📊 Data Preprocessing
 
@@ -59,9 +61,10 @@ R² Score ≈ 0.74
 
 🌐 Deployment
 
-The best-performing model is deployed using Streamlit, providing an interactive BMW-style dashboard.
+The best model is deployed using Streamlit, creating a BMW-styled prediction dashboard.
 
-<p align="center"> 👉 Add your app screenshot here for maximum impact </p>
+<p align="center"> 👉 Add your dashboard screenshot here </p>
+<hr>
 ⚙️ Tech Stack
 Category	Tools
 Programming	Python
@@ -69,6 +72,7 @@ Data Processing	Pandas, NumPy
 Machine Learning	Scikit-learn
 Deployment	Streamlit
 Model Saving	Joblib
+<hr>
 📂 Project Structure
 BMW-Sales-Prediction/
 │
@@ -79,9 +83,11 @@ BMW-Sales-Prediction/
 ├── bmw_global_sales_cleaned.csv
 ├── requirements.txt
 └── README.md
+<hr>
 ▶️ Run Locally
 pip install -r requirements.txt
 streamlit run app.py
+<hr>
 📈 Key Highlights
 
 Built an end-to-end ML pipeline
@@ -90,19 +96,23 @@ Designed a BMW-styled premium dashboard
 
 Implemented dynamic model filtering
 
-Achieved strong predictive performance with Linear Regression
+Achieved strong predictive performance
 
+<hr>
 🔮 Future Improvements
 
-Add KPI analytics panels
+Add live analytics panels
 
 Deploy to Streamlit Cloud
 
-Integrate real-time automotive data
+Integrate external automotive data
 
 Advanced hyperparameter tuning
 
+<hr>
 👨‍💻 Author
 
 Farhan
 Data Science & Machine Learning Enthusiast
+
+<p align="center"> ⭐ If you like this project, consider giving it a star! </p>
