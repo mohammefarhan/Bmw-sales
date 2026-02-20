@@ -1,68 +1,54 @@
-🚗 BMW Global Sales Prediction Dashboard
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg" width="130"/> </p> <h2 align="center"> Machine Learning Powered Automotive Sales Intelligence </h2> <p align="center"> A production-style Streamlit dashboard that predicts BMW vehicle sales using real market and product features. </p> <p align="center">
-
-
-
-
-
-
-
-
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg" width="120"/>
 </p>
-✨ Project Highlights
 
-🚀 End-to-End Machine Learning Pipeline
+<h1 align="center">
+🚗 BMW Global Sales Prediction Dashboard
+</h1>
 
-🧠 Multiple Model Comparison
+<p align="center">
+<b>Machine Learning Powered Automotive Sales Prediction Dashboard</b>
+</p>
+🚀 Overview
 
-🎯 Best Model: Linear Regression (R² ≈ 0.74)
+A premium end-to-end machine learning project that predicts BMW vehicle sales using pricing, marketing spend, dealership count, engine type, and vehicle segment.
 
-🎨 BMW-Styled Premium UI
+This project demonstrates:
 
-⚡ Real-Time Prediction Engine
+Data preprocessing
 
-📦 Deployment-Ready Structure
+Model training & comparison
+
+Performance evaluation
+
+BMW-styled Streamlit deployment
 
 <hr>
-📊 Overview
+✨ Features
 
-This project predicts BMW vehicle units sold using business and market attributes including:
-
-Price (USD)
-
-Marketing Spend
-
-Dealership Count
-
-Competition Index
-
-Vehicle Segment
-
-Engine Type
-
-Country & Model
-
-The objective is to simulate how automotive companies can leverage machine learning to support pricing strategy, marketing planning, and sales forecasting.
+✔ Real-time prediction system
+✔ BMW-themed premium dashboard
+✔ Smart model filtering
+✔ Production-ready ML pipeline
+✔ Clean modern UI
 
 <hr>
 🧠 How It Works
-1️⃣ Data Processing
+📊 Data Preprocessing
 
-Removed duplicates
+Removed duplicate records
 
 Created datetime feature
 
-Cleaned structured variables
-
 One-hot encoded categorical features
 
-Built deployment-ready dataset
+Prepared deployment-ready dataset
 
-2️⃣ Model Training
+🤖 Model Training
 
 Models evaluated:
 
-Linear Regression ✅ Best
+Linear Regression ✅ (Best Model)
 
 Decision Tree Regressor
 
@@ -70,33 +56,22 @@ Random Forest Regressor
 
 Gradient Boosting Regressor
 
-Why Linear Regression?
-The dataset shows strong linear relationships between business drivers and vehicle sales, resulting in the highest R² score.
+Performance:
+R² Score ≈ 0.74
 
-3️⃣ Deployment
+🌐 Deployment
 
-The best model is deployed into a BMW-themed Streamlit dashboard featuring:
+The best model is deployed using Streamlit, creating a BMW-styled prediction dashboard.
 
-Dynamic dropdown inputs
-
-Smart model filtering
-
-Premium UI styling
-
-Instant prediction output
-
-<hr>
-🖥️ Dashboard Preview
-<p align="center"> 👉 Add your Streamlit dashboard screenshot here for maximum impact </p>
+<p align="center"> 👉 bmw sales report.pdf </p>
 <hr>
 ⚙️ Tech Stack
-Layer	Technology
+Category	Tools
 Programming	Python
 Data Processing	Pandas, NumPy
 Machine Learning	Scikit-learn
 Deployment	Streamlit
-Visualization	Plotly
-Model Storage	Joblib
+Model Saving	Joblib
 <hr>
 📂 Project Structure
 BMW-Sales-Prediction/
@@ -113,29 +88,29 @@ BMW-Sales-Prediction/
 pip install -r requirements.txt
 streamlit run app.py
 <hr>
-📈 Key Results
+📈 Key Highlights
 
-Achieved strong predictive performance with R² ≈ 0.74
+Built an end-to-end ML pipeline
 
-Built a production-style interactive dashboard
+Designed a BMW-styled premium dashboard
 
-Demonstrated real-world automotive analytics workflow
+Implemented dynamic model filtering
+
+Achieved strong predictive performance
 
 <hr>
-🔮 Future Enhancements
+🔮 Future Improvements
 
-KPI analytics panels
+Add live analytics panels
 
-Cloud deployment (Streamlit Cloud / Render)
+Deploy to Streamlit Cloud
+
+Integrate external automotive data
 
 Advanced hyperparameter tuning
-
-Real-time market data integration
 
 <hr>
 👨‍💻 Author
 
 Farhan
 Data Science & Machine Learning Enthusiast
-
-<p align="center"> ⭐ If you find this project useful, consider starring the repository! </p>
