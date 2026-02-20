@@ -136,4 +136,5 @@ if st.button("🚀 Predict Units Sold", use_container_width=True):
 st.markdown(
 "<center style='color:gray;margin-top:40px;'>Developed by Farhan | BMW ML Dashboard</center>",
 unsafe_allow_html=True
+
 )
